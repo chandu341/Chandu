@@ -5,10 +5,10 @@ class A
 	public A(int x) {this();System.out.println(" Para A Called ");}
 	public A() {System.out.println(" Default A Called "); }
 	
-	//overloading same but different signatures () , (int,int)
+	//overloading the same but different signatures () , (int,int)
 	public void m1() {System.out.println("M1 default");}
 	public int m1(int x,int y) {System.out.println(" m1 with 2 parameters"); return x+y;}
-	// public void m1(int p,int q) { } // not valid
+	// public void m1(int p,int q) { } // 
 	
 	
 }
