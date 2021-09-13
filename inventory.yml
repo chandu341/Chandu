@@ -1,0 +1,8 @@
+- hosts:
+    ubuntu1
+  vars:
+    domain: welcome.com
+    ansible_user: ubuntu1
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa
+    ansible_sudo_pass: p@ssowrd
+
