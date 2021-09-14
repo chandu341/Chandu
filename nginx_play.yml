@@ -1,5 +1,5 @@
 ---
-- hosts: websites
+- hosts: 15.206.66.246
   become: yes
   tasks:
     - name: "apt-get update"
