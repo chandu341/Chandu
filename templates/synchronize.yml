@@ -1,4 +1,5 @@
-- hosts: web
+- hosts: 13.127.247.175
+         13.232.111.209
   tasks:
     - name: "synchronizing website"
       synchronize:
@@ -9,3 +10,4 @@
         recursive: yes
         delete: yes
       become: no
+
